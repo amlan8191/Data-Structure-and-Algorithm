@@ -1,19 +1,18 @@
-#include <iostream>
+#include<iostream>
 
-using namespace std;
-
-int main(){
-    int n,sum=0;
-
+using namespace std ;
+int main()
+{
+    int n;
+    int sum;
     cout<<"Enter a number: ";
     cin>>n;
-    
-    for ( int i= 1; i <= n; i++)
-    {
-        sum += i;
+
+    for(int i=0;i<=n; i++){
+        sum+=1;
     }
-    cout<<"The sum of your number is "<<sum;
+    cout<<"The sum of the numbers are "<<sum;
     return 0;
 
-
 }
+
