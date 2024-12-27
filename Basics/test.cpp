@@ -1,13 +1,16 @@
 #include<iostream>
 using namespace std;
 
-int main(){
-    for(int i=1;i<5;i++){
-        for(int j=1;j<=i;j++){
-            cout<<i<<" ";
+void doSomething(string s){
+    s[0]='t';
+    cout<<s<<endl;
+}
 
-        }
-        cout<<endl;
-    }
-    return 0;
+int main(){
+    string s="Raj";
+
+    doSomething(s);
+
+    cout<<s<<endl;
+
 }
