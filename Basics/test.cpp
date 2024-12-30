@@ -1,16 +1,16 @@
 #include<iostream>
 using namespace std;
 
-void doSomething(string s){
-    s[0]='t';
-    cout<<s<<endl;
-}
-
 int main(){
-    string s="Raj";
+    int size;
+    cin>>size;
+    int arr[size];
 
-    doSomething(s);
-
-    cout<<s<<endl;
+    for(int i=0;i<=size-1;i++){
+        cin>>arr[i];
+    }
+    for(int i=0;i<size;i++){
+        cout<<arr[i]<<endl;
+    }
 
 }
